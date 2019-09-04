@@ -40,10 +40,7 @@
         "laravel": {
             "providers": [
                 "Cloudteam\\ModelGenerator\\CodersServiceProvider"
-            ],
-            "aliases": {
-                "BaseCore": "Cloudteam\\ModelGenerator\\Facades\\Coders"
-            }
+            ]
         }
     }
 }
