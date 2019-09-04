@@ -7,7 +7,7 @@
 
 namespace Cloudteam\ModelGenerator\Model;
 
-use Reliese\Meta\Blueprint;
+use Cloudteam\ModelGenerator\Meta\Blueprint;
 
 class Mutator
 {
@@ -40,7 +40,7 @@ class Mutator
 
     /**
      * @param string $column
-     * @param \Reliese\Meta\Blueprint $blueprint
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint $blueprint
      *
      * @return mixed
      */

@@ -8,7 +8,7 @@
 namespace Cloudteam\ModelGenerator\Model;
 
 use Illuminate\Support\Arr;
-use Reliese\Meta\Blueprint;
+use Cloudteam\ModelGenerator\Meta\Blueprint;
 
 class Config
 {
@@ -28,7 +28,7 @@ class Config
     }
 
     /**
-     * @param \Reliese\Meta\Blueprint $blueprint
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint $blueprint
      * @param string $key
      * @param mixed $default
      *

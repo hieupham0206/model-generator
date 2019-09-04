@@ -8,7 +8,7 @@
 namespace Cloudteam\ModelGenerator\Model\Relations;
 
 use Illuminate\Support\Str;
-use Reliese\Support\Dumper;
+use Cloudteam\ModelGenerator\Support\Dumper;
 use Illuminate\Support\Fluent;
 use Cloudteam\ModelGenerator\Model\Model;
 use Cloudteam\ModelGenerator\Model\Relation;

@@ -9,9 +9,9 @@ namespace Cloudteam\ModelGenerator\Model;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;
-use Reliese\Meta\Blueprint;
-use Reliese\Support\Classify;
-use Reliese\Meta\SchemaManager;
+use Cloudteam\ModelGenerator\Meta\Blueprint;
+use Cloudteam\ModelGenerator\Support\Classify;
+use Cloudteam\ModelGenerator\Meta\SchemaManager;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Database\DatabaseManager;
 
@@ -23,7 +23,7 @@ class Factory
     private $db;
 
     /**
-     * @var \Reliese\Meta\SchemaManager
+     * @var \Cloudteam\ModelGenerator\Meta\SchemaManager
      */
     protected $schemas;
 
@@ -33,7 +33,7 @@ class Factory
     protected $files;
 
     /**
-     * @var \Reliese\Support\Classify
+     * @var \Cloudteam\ModelGenerator\Support\Classify
      */
     protected $class;
 
@@ -57,7 +57,7 @@ class Factory
      *
      * @param \Illuminate\Database\DatabaseManager $db
      * @param \Illuminate\Filesystem\Filesystem $files
-     * @param \Reliese\Support\Classify $writer
+     * @param \Cloudteam\ModelGenerator\Support\Classify $writer
      * @param \Cloudteam\ModelGenerator\Model\Config $config
      */
     public function __construct(DatabaseManager $db, Filesystem $files, Classify $writer, Config $config)
@@ -121,7 +121,7 @@ class Factory
     }
 
     /**
-     * @param \Reliese\Meta\Blueprint $blueprint
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint $blueprint
      *
      * @return bool
      */
@@ -170,7 +170,7 @@ class Factory
     /**
      * @param string $schema
      *
-     * @return \Reliese\Meta\Schema
+     * @return \Cloudteam\ModelGenerator\Meta\Schema
      */
     public function makeSchema($schema)
     {
@@ -442,7 +442,7 @@ class Factory
     }
 
     /**
-     * @param \Reliese\Meta\Blueprint|null $blueprint
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint|null $blueprint
      * @param string $key
      * @param mixed $default
      *

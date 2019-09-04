@@ -8,7 +8,7 @@
 namespace Cloudteam\ModelGenerator\Model;
 
 use Illuminate\Support\Str;
-use Reliese\Meta\Blueprint;
+use Cloudteam\ModelGenerator\Meta\Blueprint;
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Cloudteam\ModelGenerator\Model\Relations\BelongsTo;
@@ -18,7 +18,7 @@ use Cloudteam\ModelGenerator\Model\Relations\ReferenceFactory;
 class Model
 {
     /**
-     * @var \Reliese\Meta\Blueprint
+     * @var \Cloudteam\ModelGenerator\Meta\Blueprint
      */
     private $blueprint;
 
@@ -38,7 +38,7 @@ class Model
     protected $relations = [];
 
     /**
-     * @var \Reliese\Meta\Blueprint[]
+     * @var \Cloudteam\ModelGenerator\Meta\Blueprint[]
      */
     protected $references = [];
 
@@ -155,7 +155,7 @@ class Model
     /**
      * ModelClass constructor.
      *
-     * @param \Reliese\Meta\Blueprint $blueprint
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint $blueprint
      * @param \Cloudteam\ModelGenerator\Model\Factory $factory
      * @param \Cloudteam\ModelGenerator\Model\Mutator[] $mutators
      * @param bool $loadRelations
@@ -382,7 +382,7 @@ class Model
     }
 
     /**
-     * @param \Reliese\Meta\Blueprint[] $references
+     * @param \Cloudteam\ModelGenerator\Meta\Blueprint[] $references
      */
     public function withReferences($references)
     {
@@ -1020,7 +1020,7 @@ class Model
     }
 
     /**
-     * @return \Reliese\Meta\Blueprint
+     * @return \Cloudteam\ModelGenerator\Meta\Blueprint
      */
     public function getBlueprint()
     {

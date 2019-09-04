@@ -1,6 +1,6 @@
 <?php
 
-use Reliese\Meta\Blueprint;
+use Cloudteam\ModelGenerator\Meta\Blueprint;
 
 /**
  * Created by Cristian.

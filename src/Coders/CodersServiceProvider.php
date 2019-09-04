@@ -2,7 +2,7 @@
 
 namespace Cloudteam\ModelGenerator;
 
-use Reliese\Support\Classify;
+use Cloudteam\ModelGenerator\Support\Classify;
 use Cloudteam\ModelGenerator\Model\Config;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;

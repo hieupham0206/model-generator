@@ -111,7 +111,7 @@ class ReferenceFactory
     }
 
     /**
-     * @return \Reliese\Meta\Blueprint
+     * @return \Cloudteam\ModelGenerator\Meta\Blueprint
      */
     protected function getRelatedBlueprint()
     {
