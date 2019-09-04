@@ -1,6 +1,6 @@
 <?php
 
-namespace Cloudteam\BaseCore\Facades;
+namespace Cloudteam\ModelGenerator\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
