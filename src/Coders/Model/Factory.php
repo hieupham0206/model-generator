@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by Cristian.
- * Date: 19/09/16 11:58 PM.
- */
-
-namespace Cloudteam\ModelGenerator\Model;
+namespace Cloudteam\ModelGenerator\Coders\Model;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Cloudteam\ModelGenerator\Console;
+namespace Cloudteam\ModelGenerator\Coders\Console;
 
 use Illuminate\Console\Command;
-use Cloudteam\ModelGenerator\Model\Factory;
+use Cloudteam\ModelGenerator\Coders\Model\Factory;
 use Illuminate\Contracts\Config\Repository;
 
 class CodeModelsCommand extends Command

@@ -5,7 +5,7 @@
  * Date: 11/09/16 09:00 PM.
  */
 
-namespace Cloudteam\ModelGenerator\Model;
+namespace Cloudteam\ModelGenerator\Coders\Model;
 
 use Illuminate\Support\Arr;
 use Cloudteam\ModelGenerator\Meta\Blueprint;

@@ -1,19 +1,14 @@
 <?php
 
-/**
- * Created by Cristian.
- * Date: 11/09/16 12:11 PM.
- */
-
-namespace Cloudteam\ModelGenerator\Model;
+namespace Cloudteam\ModelGenerator\Coders\Model;
 
 use Illuminate\Support\Str;
 use Cloudteam\ModelGenerator\Meta\Blueprint;
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Cloudteam\ModelGenerator\Model\Relations\BelongsTo;
+use Cloudteam\ModelGenerator\Coders\Model\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Cloudteam\ModelGenerator\Model\Relations\ReferenceFactory;
+use Cloudteam\ModelGenerator\Coders\Model\Relations\ReferenceFactory;
 
 class Model
 {

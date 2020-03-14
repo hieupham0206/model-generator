@@ -10,8 +10,8 @@ namespace Cloudteam\ModelGenerator\Model\Relations;
 use Illuminate\Support\Str;
 use Cloudteam\ModelGenerator\Support\Dumper;
 use Illuminate\Support\Fluent;
-use Cloudteam\ModelGenerator\Model\Model;
-use Cloudteam\ModelGenerator\Model\Relation;
+use Cloudteam\ModelGenerator\Coders\Model\Model;
+use Cloudteam\ModelGenerator\Coders\Model\Relation;
 
 class BelongsTo implements Relation
 {

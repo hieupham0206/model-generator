@@ -1,13 +1,13 @@
 <?php
 
-namespace Cloudteam\ModelGenerator;
+namespace Cloudteam\ModelGenerator\Coders;
 
 use Cloudteam\ModelGenerator\Support\Classify;
-use Cloudteam\ModelGenerator\Model\Config;
+use Cloudteam\ModelGenerator\Coders\Model\Config;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
 use Cloudteam\ModelGenerator\Console\CodeModelsCommand;
-use Cloudteam\ModelGenerator\Model\Factory as ModelFactory;
+use Cloudteam\ModelGenerator\Coders\Model\Factory as ModelFactory;
 
 class CodersServiceProvider extends ServiceProvider
 {

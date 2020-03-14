@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by Cristian.
- * Date: 02/10/16 08:24 PM.
- */
-
-namespace Cloudteam\ModelGenerator\Model;
+namespace Cloudteam\ModelGenerator\Coders\Model;
 
 use ArrayIterator;
 use IteratorAggregate;

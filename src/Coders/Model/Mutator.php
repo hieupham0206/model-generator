@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by Cristian.
- * Date: 10/10/16 11:46 PM.
- */
-
-namespace Cloudteam\ModelGenerator\Model;
+namespace Cloudteam\ModelGenerator\Coders\Model;
 
 use Cloudteam\ModelGenerator\Meta\Blueprint;
 
